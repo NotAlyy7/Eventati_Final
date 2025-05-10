@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="CENTER" hgap="10" prefHeight="550" prefWidth="950" style="-fx-background-color: darkblue;" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="oop.oop5.DeleteCategory">
+    <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Delete Category" textFill="WHITE" GridPane.columnSpan="2" GridPane.rowIndex="0" />
+
+    <Label text="Category ID" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <TextField fx:id="idField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Button fx:id="deleteButton" onAction="#delete" text="Delete" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+    <Button fx:id="backButton" onAction="#back" text="Back" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

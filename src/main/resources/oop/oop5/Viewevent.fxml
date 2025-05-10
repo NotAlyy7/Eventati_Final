@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oop5.Scenecontroller">
+   <children>
+      <TextArea fx:id="outputArea1" editable="false" layoutX="27.0" layoutY="31.0" prefHeight="274.0" prefWidth="534.0" text="                                                      " />
+      <Button layoutX="220.0" layoutY="339.0" mnemonicParsing="false" onAction="#switchdashboard" text="Back To DashBoard">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

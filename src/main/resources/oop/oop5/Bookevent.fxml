@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="505.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oop5.Scenecontroller">
+   <children>
+      <Button layoutX="251.0" layoutY="409.0" mnemonicParsing="false" onAction="#switchbook2" text="BookEvent">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="eventSelectionField" layoutX="225.0" layoutY="371.0" text=" " />
+      <TextArea fx:id="outputArea" editable="false" layoutX="11.0" layoutY="26.0" prefHeight="311.0" prefWidth="576.0" text="                                                          " />
+      <Button layoutX="221.0" layoutY="456.0" mnemonicParsing="false" onAction="#switchdashboard" text="Back To DashBoard">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Text layoutX="241.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Event Id">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

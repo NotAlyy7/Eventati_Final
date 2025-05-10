@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="10" prefHeight="550" prefWidth="950" style="-fx-background-color: darkblue;" vgap="10" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oop5.AdminDashboard">
+    <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" text="Admin Dashboard" textFill="WHITE" GridPane.columnIndex="2" GridPane.columnSpan="2" />
+   <SplitPane dividerPositions="0.4940087145969499" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="964.0" GridPane.columnIndex="2">
+     <items>
+         <AnchorPane prefHeight="547.0" prefWidth="535.0">
+            <children>
+             <AnchorPane layoutX="61.0" layoutY="-37.0" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                  <children>
+                      <Button fx:id="viewRoomsButton" layoutX="-22.0" layoutY="120.0" onAction="#viewRooms" text="View Rooms" />
+      
+                      <Button fx:id="addRoomButton" layoutX="-17.0" layoutY="52.0" onAction="#addRoom" text="Add Room" />
+                  </children></AnchorPane>
+                <Button fx:id="viewAttendeesButton" layoutX="31.0" layoutY="148.0" onAction="#viewAttendees" text="View Attendees" />
+                <Button fx:id="viewCategoriesButton" layoutX="29.0" layoutY="215.0" onAction="#viewCategories" text="View Categories" />
+                <Button fx:id="manageCategoriesButton" layoutX="21.0" layoutY="276.0" onAction="#manageCategories" text="Manage Categories" />
+            </children>
+         </AnchorPane>
+       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+            <children>
+                <Button fx:id="logoutButton" layoutX="8.0" layoutY="248.0" onAction="#logout" text="Log Out" />
+            </children>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+         </AnchorPane>
+     </items>
+   </SplitPane>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

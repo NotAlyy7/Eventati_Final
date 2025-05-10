@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oop5.Scenecontroller">
+   <children>
+      <Button layoutX="141.0" layoutY="348.0" mnemonicParsing="false" onAction="#switchBook" prefHeight="38.0" prefWidth="103.0" text="Back">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="outputArea2" editable="false" layoutX="2.0" layoutY="8.0" prefHeight="331.0" prefWidth="594.0" />
+      <Button layoutX="331.0" layoutY="348.0" mnemonicParsing="false" onAction="#switchdashboard" prefHeight="38.0" prefWidth="190.0" text="Back To DashBoard">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
